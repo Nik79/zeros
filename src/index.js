@@ -6,7 +6,7 @@ var div = number/Math.pow(5,1);
 
 while (div>1) {
 	var flooredDiv = Math.floor(div);
-	zerosNum = zerosNum + div;
+	zerosNum = zerosNum + flooredDiv;
 	degree = degree + 1;
 	div = number/Math.pow(5,degree);
 }
